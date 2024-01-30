@@ -1,0 +1,70 @@
+核心笔记：
+
+
+01，Python环境：
+	- anaconda
+		- 一路next
+		- 所有勾全部打上
+
+02，PyTorch框架：
+	- 按照官网选择
+	- pip安装即可
+
+03，Git For Windows：
+	- https://gitforwindows.org/
+
+04，YOLOv8
+	- pip install -e .
+	
+05，IDE：
+	- notepad++ ...
+	- VS Code 
+	- PyCharm
+
+06，OpenCV
+	- pip install opencv-python
+
+07，训练：
+	- train
+	- fit
+	- learn
+
+08，预测：
+	- predict
+	- test
+	- infer
+
+09，工程师的学习：
+	- 抽象层：这个算法有什么用？--》不能跑偏
+	- 应用层：把这个算法用一下试试 --》尝鲜
+	- 理论层：把算法的每一个细节搞懂 --》内功，炼丹，sota
+
+10，如何训练自己的分类网络：
+	- 准备图像：
+		- 网络获取
+		- 自身平台/系统获取
+		- 搭建环境
+		- 合法购买
+	- 采集原则：
+		- 分层采样
+		- 样本均衡
+		- 图像大小：几百像素
+	- 数据的存放格式：
+		- animal：
+			- dog：
+				- dog1.jpg
+				- dog2.jpg
+				- ...
+			- cat:
+				- cat1.jpg
+				- cat2.jpg
+				- ...
+			- cow:
+				- cow1.jpg
+				- cow2.jpg
+				- ...
+				
+		
+		
+		
+	

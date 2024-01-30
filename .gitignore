@@ -1,0 +1,10 @@
+.idea
+datasets
+ultralytics
+label_demos
+logs
+result
+bf
+*/__pycache__/
+*.mp4
+*.pt
