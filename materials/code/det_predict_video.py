@@ -1,7 +1,12 @@
-# 引入必要的库和包
+"""
+det_predict_video - 目标检测模型预测
+
+Author: liuzhenzhen
+Date: 2024/1/31
+"""
+
 from ultralytics import YOLO
 import cv2
-
 
 # 加载模型
 model = YOLO(model="yolov8n.pt")
@@ -9,8 +14,9 @@ model = YOLO(model="yolov8n.pt")
 # 查看模型
 print(model.model)
 
-#
+# 从视频文件中预测
 video_path = "./girls.mp4"
+# # 从摄像头中预测
 # video_path = 1
 cap = cv2.VideoCapture(video_path)
 
