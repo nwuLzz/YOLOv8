@@ -27,7 +27,7 @@ while cap.isOpened():
         break
 
     # results = model.predict(source=frame)       # 实例分割
-    results = model.predict(source=frame)       # 物体追踪
+    results = model.track(source=frame)       # 物体追踪
     result = results[0]
     # # 打印结果
     # print(result)
