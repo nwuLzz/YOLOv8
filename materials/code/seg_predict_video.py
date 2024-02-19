@@ -26,15 +26,19 @@ while cap.isOpened():
     if not status:
         break
 
-    results = model.track(source=frame)
+    # results = model.predict(source=frame)       # 实例分割
+    results = model.predict(source=frame)       # 物体追踪
     result = results[0]
+    # # 打印结果
     # print(result)
-    # 
+    # 结果画到图像上
     anno_frame = result.plot()
-    cv2.imshow(winname="frame", mat=anno_frame)
+    cv2.imshow(winname="frame", mat=anno_frame)     # 显示图像
 
-    if cv2.waitKey(delay=1) == 27:
+    # 按Esc退出
+    if cv2.waitKey(delay=10) == 27:
         break
 
+# 释放资源
 cap.release()
 cv2.destroyAllWindows()
